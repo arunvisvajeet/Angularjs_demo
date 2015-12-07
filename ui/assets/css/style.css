@@ -1,0 +1,118 @@
+/* Styles go here */
+html,body{
+  padding:0;
+  margin:0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-color: #027cd5;
+  box-shadow: 10px 5px 5px #BEB3B3;
+  padding-top: 20px;
+}
+header > section {
+   height: 70%;
+   width: 100%;
+   background-color: #006cb4;
+}
+header .header-logo{
+    background-image: url(ui/assets/image/shoping-bag.png);
+    height: 100%;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: inline-block;
+}
+header .logo-text{
+    display: inline-block;
+    position: relative;
+    top: -19px;
+    color: white;
+    font-size: 20px;
+}
+
+header .search-container{
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    width: 60%;
+    height: 100%;
+}
+header .search-container .search-text{
+    width: 82%;
+    border: none;
+    height: 56%;
+}
+header .search-container .search-button{
+border: none;
+    height: 56%;
+    width: 17%;
+}
+header .statistics-area{
+    display: inline-block;
+    width: 27%;
+    height: 80%;
+    border: 1px #F1FF15 solid;
+    margin-left: 23px;
+    position: relative;
+    top: -14px;
+}
+header .statistics-area .likes{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+header .statistics-area .likes .like-icon{
+    background-image: url(ui/assets/image/like.png);
+    width: 40%;
+    height: 84%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    display: inline-block;
+    position: relative;
+}
+header .statistics-area .likes .like-count{
+    width: 10%;
+    height: 100%;
+    left: 10px;
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    color: white;
+        
+}
+header .statistics-area .api-hits{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+header .statistics-area .api-hits .api-icon{
+    background-image: url(ui/assets/image/api.png);
+    width: 22%;
+    height: 84%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    display: inline-block;
+    position: relative;
+}
+header .statistics-area .api-hits .api-count{
+    width: 10%;
+    height: 100%;
+    left: 10px;
+    display: inline-block;     
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
+
